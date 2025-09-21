@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.coin-table {
+  margin-top: 20px;
+}
+
+.coin-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coin-table th,
+.coin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.coin-table th {
+  background: #333;
+  color: #fff;
+}
+
+.coin-table tr:hover {
+  background: #f1f1f1;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.highlight-section {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
